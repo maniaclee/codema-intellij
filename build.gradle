@@ -1,0 +1,32 @@
+group 'com.lvbby'
+version '1.0-SNAPSHOT'
+
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        maven {
+            url 'http://dl.bintray.com/jetbrains/intellij-plugin-service'
+        }
+
+    }
+    dependencies {
+        classpath "gradle.plugin.org.jetbrains:gradle-intellij-plugin:0.1.10"
+    }
+}
+
+apply plugin: 'org.jetbrains.intellij'
