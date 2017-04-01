@@ -2,7 +2,7 @@ group 'com.lvbby'
 version '1.0-SNAPSHOT'
 
 
-sourceCompatibility = 1.5
+//sourceCompatibility = 1.5
 
 repositories {
     mavenCentral()
