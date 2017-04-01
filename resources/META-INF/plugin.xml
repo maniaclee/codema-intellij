@@ -40,4 +40,5 @@
       <implementation-class>com.lvbby.intellij.codema.CodemaApplicationComponent</implementation-class>
     </component>
   </application-components>
+
 </idea-plugin>
